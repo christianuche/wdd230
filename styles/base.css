@@ -38,6 +38,18 @@ nav {
     padding: 10px;
 }
 
+nav .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background: 0;
+    cursor: pointer;
+}
+
+nav .hamburger svg {
+    stroke: #fff;
+}
 
 nav ul {
     list-style-type: none;
