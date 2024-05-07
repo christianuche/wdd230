@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your Chamber of Commerce Description">
     <title>Your Chamber of Commerce</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
@@ -19,16 +19,15 @@
     <header>
          <!-- Logo section -->
         <div class="logo">
-        <img src="logo.png" alt="Logo">
+            <img class="pic-logo" src="images/favicon.png" alt="Logo">
         </div>
         <!-- Header content goes here -->
         <h1> Abia State Chamber of Commerce</h1>
          <!-- Social media icons -->
         <div class="social-media">
-        <img src="facebook.png" alt="Facebook">
-        <img src="twitter.png" alt="Twitter">
-        <img src="instagram.png" alt="Instagram">
-    </div>
+        <img src="images/facebook.png" alt="Facebook">
+        <img src="images/twitter.png" alt="Twitter">
+        </div>
     </header>
     <main>
         <!-- Hero image -->
@@ -46,19 +45,19 @@
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
-        <!-- Call to action -->
-        <section id="cta">
-            <h2>Join Your Chamber of Commerce Today!</h2>
-            <a href="#" class="button">Join Now</a>
-        </section>
-        <!-- Weather card -->
-        <section id="weather">
-            <h2>Weather Forecast</h2>
-            <!-- Weather card content goes here -->
-        </section>
         <div class="grid-container">
+            <!-- Call to action -->
+            <section id="cta">
+                <h2>Join Your Chamber of Commerce Today!</h2>
+                <a href="#" class="button">Join Now</a>
+            </section>
+            <!-- Weather card -->
+            <section id="weather">
+                <h2>Weather Forecast</h2>
+                <!-- Weather card content goes here -->
+            </section>
             <!-- Current events -->
-            <section id="events">
+            <section class="events">
                 <h2>Current Events</h2>
                 <ul>
                     <li>Event 1</li>
@@ -66,7 +65,7 @@
                     <!-- Add more events -->
                 </ul>
             </section>
-            <section id="old-events">
+            <section class="old-events">
                 <h2>Previous Events</h2>
                 <ul>
                     <li>Event 1</li>
@@ -90,7 +89,8 @@
             <p>WDD 230 Project | Last Modified: <span id="lastModified"></span></p>
         </div>
     </footer>
+    <script src="scripts/getDateTime.js"></script>
 
-    
+
 </body>
 </html>
