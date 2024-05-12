@@ -22,6 +22,11 @@
         font-size: 2rem;
     }
 
+    .hero span p{
+        font-size: 2rem;
+        font-weight: 2000;
+    }
+
     ul.menuLinks, ul.menuLinks.open {
         display: flex;
     }
