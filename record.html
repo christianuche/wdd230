@@ -60,48 +60,20 @@
             <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
-
+<body>
     <main>
-        <h1>Join the Chamber of Commerce</h1>
-        <form action="record.html" method="get" id="userForm" class="wf1">
-        <fieldset>
-            <legend>
-                Applicant Information
-            </legend>
-            <label for="username">Username* :</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="password">Password* :</label>
-            <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and only contain alpha-numeric characters.">
-
-            <label for="confirmPassword">Confirm Password* :</label>
-            <input type="password" id="confirmPassword" name="confirmPassword" required>
-
-            <label for="email">Email* :</label>
-            <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid byui.edu email address">
-
-            <label for="rating">Page Rating* :</label>
-            <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5" oninput="this.nextElementSibling.value = this.value">
-            <output>5</output>
-
-        </fieldset>
-        <input type="submit" value="Propose My Course">
-        </form>
+        <h1>Form Submitted Successfully!</h1>
+        <p>Thank you for submitting the form.</p>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; <span id="year"></span>Christian Uche</p>
-            <p id="lastModified"></p>
-            <img src="images/nigeria-flag.jpg" alt="Country Flag" class="flag" width="60" height="30">
-            <span>Nigeria</span>
+        <!-- Footer content -->
+        <div>
+            <p>Contact us: email@example.com | Phone: 123-456-7890</p>
+            <p>Developed by Christian Uzomba Uche</p>
+            <p>WDD 230 Project | Last Modified: <span id="lastModified"></span></p>
         </div>
     </footer>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/darkMode.js"></script>
-    <script src="scripts/formValidation.js"></script>
-    <script src="scripts/visitCounter.js"></script>
-    <script src="scripts/formValidation.js"></script> 
-
+    <script src="scripts/getDateTime.js"></script>
 </body>
 </html>

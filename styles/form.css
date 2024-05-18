@@ -1,0 +1,84 @@
+/*-----------FORM STYLING-----------*/
+:root {
+    --main-bg-color: #fff;
+    --form-bg-color: #be4747;
+    --primary-color: #007BFF;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    padding: 10px;
+}
+
+form {
+    background-color: var(--main-bg-color);
+    border-radius: 6px;
+}
+
+.wf1 fieldset {
+    margin: 10px;
+    border: 1px solid #5782df;
+    border-radius: 6px;
+    padding: .3rem 2%;
+}
+
+.wf1 legend {
+    color: rgb(0, 0, 153);
+    padding: 0 .2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: .5rem;
+    color: rgb(236, 7, 7);
+    font-size: 1rem;
+
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"]
+{
+    background-color: rgb(236, 226, 231);
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    margin-bottom: 16px;
+    color: #333;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="submit"]
+{
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 10px;
+    width: 96%;
+    max-width: 400px;
+    margin: 100%;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.wf1 input:required {
+    border-bottom: solid 8px red;
+}
+
+.wf1 input:required:valid {
+    border-bottom: solid 8px green;
+}
+

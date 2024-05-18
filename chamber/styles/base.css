@@ -320,7 +320,9 @@ img {
     margin: .5rem;}
 figcaption {font-size: smaller;}
 /* hover effect */
-.hover:hover {box-shadow: 0 0 50px #333;}
+.hover:hover {
+    box-shadow: 0 0 50px #333;
+}
 /* Footer styles */
 footer {
     text-align: center;
