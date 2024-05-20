@@ -1,0 +1,103 @@
+/* Additions for the join form */
+form {
+    max-width: 600px;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.sideBar {
+    padding: 15px;
+    background-color: #2b85eb;
+    color: #fff;
+}
+
+.sideBar ul {
+    list-style-type: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.sideBar ul li {
+    background-color: #05305a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.sideBar h2 {
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: #dce2e7;
+    max-width: fit-content;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.wt2 input[type="text"],
+.wt2 input[type="email"],
+.wt2 input[type="tel"],
+.wt2 textarea,
+select {
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0d048d91;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #023872;
+}
+
+.wt2 input:required {
+    border-bottom: solid 8px rgba(2, 10, 121, 0.966);
+}
+
+.wt2 input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+
+@media only screen and (min-width: 38rem) {
+    main {
+        padding: 0;
+        display: grid;
+        max-width: fit-content;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 50px rgb(0, 0, 0);
+    }
+}

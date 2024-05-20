@@ -44,3 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Store current date as last visit
     localStorage.setItem("lastVisit", today);
 });
+
+
+// get hidden time
+document.getElementById('timestamp').value = new Date().toISOString();

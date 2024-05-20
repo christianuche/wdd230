@@ -64,7 +64,7 @@ form {
 .wf1 input[type="submit"]
 {
     border: none;
-    background-image: linear-gradient(#9c2c13, #6f200e);
+    background-color: #811515;
     color: #fff;
     border-radius: 6px;
     padding: 10px 10px;
@@ -73,6 +73,11 @@ form {
     margin: 10px 2% 0 2%;
     box-shadow: 5px 5px 10px #000000;
 }
+
+.wf1 input[type="submit"]:hover {
+    background-color: #f00000;
+}
+
 
 .wf1 input:required {
     border-bottom: solid 8px red;
