@@ -71,41 +71,15 @@
         <h1>
             WDD 230: Web Frontend Development
         </h1>
-        <div class="parent">
-            <section class="card">
-                <h2>
-                    Learning Activities
-                </h2>
-                <ul>
-                    <li><p>Week 01:
-                        <span><a href="week-one/holy-grail.html">Holy Grail</a> | <a href="week-one/media-query.html">Media Query</a></span>
-                    </p></li>
-                    <li><p>Week 02:
-                        <span><a href="#"></a> | <a href="#"></a></span>
-                    </p></li>
-                    <li><p>Week 03:
-                        <span><a href=""></a> | <a href="#"></a></span>
-                    </p></li>
-                    <li><p>Week 04:
-                        <span><a href="week-four/Form-start/index.html">Form Start</a> | <a href="week-four/Form-start/thanks.html">Respond Message</a></span>
-                    </p></li>
-                    <li><p>Week 05:
-                        <span><a href="#"></a> | <a href="#"></a></span>
-                    </p></li>
-                    <li><p>Week 06:
-                        <span><a href="#"></a> | <a href="#"></a></span>
-                    </p></li>
-            </section>
-            <section class="card">
-                <h2>
-                    Information
-                </h2>
-                <!-- Placeholder for weather information -->
-                <p>Weather: <span id="weather">Loading.....</span></p>
-                <!-- Placeholder for number of visits to the page -->
-                <p>Visits: <span id="visits">0</span></p>
-                <!-- Add more information placeholders as needed -->
-            </section>
+            <div class="weather-card">
+                <h2>Current Weather</h2>
+                <div id="weather-icon"></div>
+                <p id="temperature">Temperature: --°C</p>
+                <p id="description">Description: --</p>
+            </div>
+
+            <div id="activities"></div>
+
         </div>
     </main>
     <div class="responsive-iframe">
@@ -122,6 +96,8 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/formValidation.js"></script>
-    <script src="scripts/visitCounter.js"></script>    
+    <script src="scripts/visitCounter.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>      
 </body>
 </html>
