@@ -154,6 +154,10 @@ h2 {
     margin: auto;
 }
 
+h3 {
+    text-align: center;
+}
+
 p {
     padding: 10px 20px;
     color: #ffffff;
@@ -203,6 +207,46 @@ main a {
 
 .card {
     margin: 15px 0 15px;
+}
+
+.card-weather {
+    border: 2px solid #8d0202;
+    background-color: rgb(128, 125, 122);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+	box-shadow: 0 0 .5rem #c2bdbd;
+}
+
+.card-weather h3 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.card-weather #description {
+    text-transform: capitalize;
+    margin: .3rem 0;
+    font-size: 1.2rem;
+    color: #090322;
+}
+
+.card-weather #graphic {
+    box-shadow: 0 0 1rem #181616;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.card-weather #temperature {
+    font-size: 1.5rem;
+}
+
+.card-weather .visited {
+    color: #55ee2fb0;
+    font-size: 1.5rem;
+    background-color: #090322;
+    border-radius: 7px;
 }
 
 footer div {
