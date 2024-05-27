@@ -16,17 +16,3 @@ function displayLinks(weeks) {
         weekHeader.textContent = week.week;
         activitiesSection.appendChild(weekHeader);
 
-        const linksList = document.createElement('ul');
-        week.links.forEach(link => {
-            const listItem = document.createElement('li');
-            const anchor = document.createElement('a');
-            anchor.href = baseURL + link.url;
-            anchor.textContent = link.title;
-            listItem.appendChild(anchor);
-            linksList.appendChild(listItem);
-        });
-        activitiesSection.appendChild(linksList);
-    });
-}
-
-getLinks();
