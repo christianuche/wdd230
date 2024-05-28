@@ -1,5 +1,5 @@
 const baseURL = "https://christianuche.github.io/wdd230/"
-const linksURL = `${baseURL}links.json`
+const linksURL = "https://christianuche.github.io/wdd230/data/links.json"
 
 
 async function getLinks() {
@@ -11,3 +11,5 @@ async function getLinks() {
       console.error('Error fetching links:', error);
     }
   }
+
+  getLinks()

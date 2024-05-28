@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Chamber of Commerce Description">
+    <title>Your Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Social media meta settings -->
+    <meta property="og:title" content="Your Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/shallow-focus-woman-with-facemask-holding-pos-machine-market-edit.jpg">
+    <meta property="og:url" content="https://christianuche.github.io/wdd230-project-design/chamber/index.html">
+</head>
+<body>
+    <header>
+         <!-- Logo section -->
+        <div class="logo">
+            <img class="pic-logo" src="images/favicon.png" alt="Logo">
+        </div>
+        <div id="mode">
+            🕶️
+        </div>
+        <!-- Header content goes here -->
+        <h1> Abia State Chamber of Commerce</h1>
+         <!-- Social media icons -->
+        <div class="social-media">
+        <img src="images/facebook.png" alt="Facebook">
+        <img src="images/twitter.png" alt="Twitter">
+        </div>
+    </header>
+    <nav id="animateMe">
+        <button id='myButton'></button>
+        <ul class="menuLinks">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directive.html">Directive</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="toggle-buttons">
+            <button id="grid-view">⏹️Grid</button>
+            <button id="list-view">📄List</button>
+        </div>
+        <div id="member-container" class="grid-view"></div>
+    </main>
+    <footer>
+        <!-- Footer content -->
+        <div>
+            <p>Contact us: email@example.com | Phone: 123-456-7890</p>
+            <p>Developed by Christian Uzomba Uche</p>
+            <p>WDD 230 Project | Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDateTime.js"></script>
+    <script src="scripts/member.js"></script>
+    <script src="scripts/darkMode.js"></script>
+
+
+    
+</body>
+</html>
