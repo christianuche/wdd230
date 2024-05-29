@@ -353,8 +353,9 @@ footer {
 
 .grid-view .member-card {
     box-shadow: 0 15px 15px rgba(31, 28, 28, 0.877);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-template-rows: 3fr;
     align-items: center;
 }
 
