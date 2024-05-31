@@ -2,11 +2,7 @@ const baseURL = "https://yourgithubusername.github.io/wdd230/"; // Replace with 
 const linksURL = `${baseURL}data/links.json`;
 
 async function getLinks() {
-  try {
     const response = await fetch(linksURL);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
     const data = await response.json();
     console.log('Data fetched successfully:', data); // Debug log
     displayLinks(data.weeks); // Ensure this function is defined below
@@ -41,5 +37,3 @@ function displayLinks(weeks) {
     activityLinksSection.appendChild(weekDiv);
   });
 }
-
-getLinks();
