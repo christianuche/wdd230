@@ -150,7 +150,7 @@ h1 {
 h2 {
     text-align: center;
     padding: 5px;
-    background-color: #1619cf9f;
+    background-color: #030855;
     margin: auto;
 }
 
@@ -167,13 +167,6 @@ p {
 
 .parent {
     margin: 2rem 2vw;
-}
-
-.parent div {
-    border: 3px solid rgba(48, 44, 44, 0.767);
-    background-color: #130929d3;
-    color: #fff;
-    border-radius: 5px;
 }
 
 .responsive-iframe {
@@ -207,6 +200,10 @@ main a {
 
 .card {
     margin: 15px 0 15px;
+    border: 10px solid #fff;
+    background: radial-gradient(#241ba3ea, #01061f);
+    color: #fff;
+    border-radius: 5px;
 }
 
 .card-weather {
@@ -243,7 +240,7 @@ main a {
 }
 
 .card-weather .visited {
-    color: #55ee2fb0;
+    color: #edf0ece1;
     font-size: 1.5rem;
     background-color: #090322;
     border-radius: 7px;
@@ -279,35 +276,43 @@ footer div {
     height: 100px;
 }
 
-#activities {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #090322;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-#activities h3 {
-    margin-top: 0;
-    color: #0073e6;
-}
+/*Styling the Activity-Links*/
+/* General section styling */
+.activity-links {
+    background-color: #fff;
+    border: 3px solid rgba(48, 44, 44, 0.767);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Title styling */
+  .activity-links h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 7px;
+  }
+  
+  /* Week container styling */
+  .activity-links .week {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    background: radial-gradient(#000c53dc, #01061f);
 
-#activities ul {
-    list-style-type: none;
-    padding: 0;
-}
 
-#activities ul li {
-    margin: 10px 0;
-}
 
-#activities ul li a {
+  }
+  /* Anchor styling */
+  .activity-links a {
     text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-}
-
-#activities ul li a:hover {
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .activity-links a:hover {
     text-decoration: underline;
-}
+  }
+  

@@ -4,12 +4,12 @@
       "week": "Week 1",
       "links": [
         {
-          "url": "week01/holygrail.html",
-          "title": "HG Layout"
+          "url": "week-one/holy-grail.html",
+          "title": "Holy Grail"
         },
         {
-          "url": "week01/media-query.html",
-          "title": "mQueries"
+          "url": "week-one/media-query.html",
+          "title": "Media Queries"
         }
       ]
     },
@@ -17,11 +17,11 @@
       "week": "Week 2",
       "links": [
         {
-          "url": "week02/flexbox.html",
+          "url": "week-two/flexbox.html",
           "title": "Flexbox Layout"
         },
         {
-          "url": "week02/grid.html",
+          "url": "week-two/grid.html",
           "title": "CSS Grid"
         }
       ]
@@ -30,11 +30,11 @@
       "week": "Week 3",
       "links": [
         {
-          "url": "week03/responsive.html",
+          "url": "week-three/responsive.html",
           "title": "Responsive Design"
         },
         {
-          "url": "week03/accessibility.html",
+          "url": "week-three/accessibility.html",
           "title": "Web Accessibility"
         }
       ]
@@ -43,11 +43,11 @@
       "week": "Week 4",
       "links": [
         {
-          "url": "week04/forms.html",
+          "url": "week-four/forms.html",
           "title": "HTML Forms"
         },
         {
-          "url": "week04/validation.html",
+          "url": "week-four/validation.html",
           "title": "Form Validation"
         }
       ]
@@ -56,11 +56,11 @@
       "week": "Week 5",
       "links": [
         {
-          "url": "week05/seo.html",
+          "url": "week-five/seo.html",
           "title": "SEO Basics"
         },
         {
-          "url": "week05/performance.html",
+          "url": "week-five/performance.html",
           "title": "Web Performance"
         }
       ]

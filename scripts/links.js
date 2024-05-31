@@ -1,4 +1,4 @@
-const baseURL = "https://yourgithubusername.github.io/wdd230/"; // Replace with your GitHub Pages URL
+const baseURL = "https://christianuche.github.io/wdd230/"; // I replaced my GitHub Pages URL here.
 const linksURL = `${baseURL}data/links.json`;
 
 async function getLinks() {
@@ -7,7 +7,7 @@ async function getLinks() {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-  const data = await response.json();
+    const data = await response.json();
     console.log('Data fetched successfully:', data); // Debug log
     displayLinks(data.weeks);
   } catch (error) {
@@ -17,7 +17,7 @@ async function getLinks() {
 
 function displayLinks(weeks) {
   const activityLinksSection = document.getElementById('activity-links');
-  activityLinksSection.innerHTML = ''; // Clear any existing content
+  activityLinksSection.innerHTML = ''; // THIS clear any existing content
 
   weeks.forEach(week => {
     const weekDiv = document.createElement('div');
@@ -28,6 +28,7 @@ function displayLinks(weeks) {
     weekDiv.appendChild(weekTitle);
 
     const linksList = document.createElement('ul');
+    
     week.links.forEach(link => {
       const listItem = document.createElement('li');
       const anchor = document.createElement('a');
