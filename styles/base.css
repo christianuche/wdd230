@@ -118,7 +118,7 @@ nav .active {
     display: block;
 }
 
-.hero span {
+.hero div {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -132,7 +132,7 @@ nav .active {
 	/* Buenas */
 }
 
-.hero span p{
+.hero p{
 	margin: 0;
 	padding: 1rem;
 	font-weight: 1000;
@@ -169,7 +169,7 @@ p {
     margin: 2rem 2vw;
 }
 
-.parent section {
+.parent div {
     border: 3px solid rgba(48, 44, 44, 0.767);
     background-color: #130929d3;
     color: #fff;
