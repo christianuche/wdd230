@@ -17,7 +17,7 @@
     }
 
     .main-content {
-        background-color: #803706bd;
+        background: radial-gradient(rgb(12, 12, 145),  #1c2b70ce,#334361d7,#607ba3, #b5b9ce);
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.658);
     }
 
