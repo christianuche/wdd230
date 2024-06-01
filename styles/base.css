@@ -300,7 +300,7 @@ footer div {
     margin: 10px;
     padding: 5px;
     border-radius: 7px;
-    background: radial-gradient(#000c53dc, #01061f);
+    background: radial-gradient(#c2c4cfdc, #01061f);
 
 
 
@@ -310,6 +310,12 @@ footer div {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
+  }
+
+  .activity-links ul {
+    background-color: #161414;
+    width: 50%;
+    border-radius: 7px;
   }
   
   .activity-links a:hover {
