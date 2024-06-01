@@ -43,9 +43,13 @@
     </nav>
     <main>
         <!-- Hero image -->
-        <section id="hero">
-            <img src="images/shallow-focus-woman-with-facemask-holding-pos-machine-market-edit.jpg" alt="Hero Image" width="200" height="100">
-        </section>
+        <div id="hero">
+            <picture>
+                <source srcset="images/hero-chamber-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-chamber-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-chamber-large.webp" alt="Market Woman" width="1500" height="750">
+            </picture>
+        </div>
         
         <div class="grid-container">
             <!-- Call to action -->
