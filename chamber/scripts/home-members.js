@@ -3,7 +3,7 @@ const memberURL = `${baseUrl}chamber/data/home-members.json`;
 
 async function fetchMembers() {
     try {
-        const response = await fetch(membersUrl);
+        const response = await fetch(memberURL);
         if (!response.ok) {
             throw new Error('Failed to fetch members data');
         }
