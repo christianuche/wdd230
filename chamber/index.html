@@ -8,6 +8,7 @@
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/slider.css">
 
     <!-- Social media meta settings -->
     <meta property="og:title" content="Your Chamber of Commerce">
@@ -71,19 +72,53 @@
             <!-- Current events -->
             <section class="events">
                 <h2>Current Events</h2>
-                <ul>
-                    <li>Event 1</li>
-                    <li>Event 2</li>
-                    <!-- Add more events -->
-                </ul>
-            </section>
-            <section class="old-events">
-                <h2>Previous Events</h2>
-                <ul>
-                    <li>Event 1</li>
-                    <li>Event 2</li>
-                    <!-- Add more events -->
-                </ul>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="images/memberFour.webp" alt="Event 1">
+                            <div class="caption">Involve in the creation</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberTwo.webp" alt="Event 2">
+                            <div class="caption">Tech Innovation</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberThree.webp" alt="Event 3">
+                            <div class="caption">World of technology</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberFour.webp" alt="Event 4">
+                            <div class="caption">Technology</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberFive.webp" alt="Event 5">
+                            <div class="caption">Chips Chips</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberSix.webp" alt="Event 6">
+                            <div class="caption">Description for Event 1</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberSeven.webp" alt="Event 7">
+                            <div class="caption">Description for Event 2</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberEight.webp" alt="Event 8">
+                            <div class="caption">Description for Event 3</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberNine.webp" alt="Event 9">
+                            <div class="caption">Description for Event 3</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/memberTen.webp" alt="Event 10">
+                            <div class="caption">Technology</div>
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1)">&#10095;</button>
+                </div>
             </section>
             
             <!-- Company spotlights -->
@@ -105,6 +140,9 @@
     <script src="scripts/weatherForecast.js"></script>
     <script src="scripts/home-members.js"></script>
     <script src="scripts/bannerHero.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/slider.js"></script>
+
 
 
 </body>

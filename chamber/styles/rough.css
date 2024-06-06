@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    }
+    .banner {
+    grid-column: 1 / span 6;
+    background-color: #ccc;
+    padding: 10px;
+    }
+    .weather-card {
+    grid-column: 7 / span 6;
+    background-color: #ccc;
+    padding: 10px;
+    }
