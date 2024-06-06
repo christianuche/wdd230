@@ -3,67 +3,67 @@
         {
             "name": "member 1",
             "level": "Gold",
-            "image": "memberOne.jpg",
+            "image": "memberOne.webp",
             "description": "Description for member 1"
         },
         {
             "name": "member 2",
             "level": "Silver",
-            "image": "memberTwo.jpg",
+            "image": "memberTwo.webp",
             "description": "Description for member 2"
         },
         {
             "name": "member 3",
             "level": "Bronze",
-            "image": "memberThree.jpg",
+            "image": "memberThree.webp",
             "description": "Description for member 3"
         },
         {
             "name": "member 4",
             "level": "Gold",
-            "image": "memberFour.jpg",
+            "image": "memberFour.webp",
             "description": "Description for member 4"
         },
         {
             "name": "member 5",
             "level": "Silver",
-            "image": "memberFive.jpg",
+            "image": "memberFive.webp",
             "description": "Description for member 5"
         },
         {
             "name": "member 6",
             "level": "Bronze",
-            "image": "memberSix.jpg",
+            "image": "memberSix.webp",
             "description": "Description for member 6"
         },
         {
             "name": "member 7",
             "level": "Gold",
-            "image": "memberSix.jpg",
+            "image": "memberSix.webp",
             "description": "Description for member 7"
         },
         {
             "name": "member 8",
             "level": "Silver",
-            "image": "memberSix.jpg",
+            "image": "memberSix.webp",
             "description": "Description for member 8"
         },
         {
             "name": "member 9",
             "level": "Bronze",
-            "image": "memberSix.jpg",
+            "image": "memberSix.webp",
             "description": "Description for member 9"
         },
         {
             "name": "member 10",
             "level": "Gold",
-            "image": "memberTen.jpeg",
+            "image": "memberTen.webp",
             "description": "Description for member 10"
         },
         {
             "name": "member 11",
             "level": "Silver",
-            "image": "memberEleven.jpeg",
+            "image": "memberEleven.webp",
             "description": "Description for member 11"
         },
         {
@@ -81,37 +81,37 @@
         {
             "name": "member 14",
             "level": "Silver",
-            "image": "memberSeven.jpeg",
+            "image": "memberSeven.webp",
             "description": "Description for member 14"
         },
         {
             "name": "member 15",
             "level": "Bronze",
-            "image": "memberSeven.jpeg",
+            "image": "memberSeven.webp",
             "description": "Description for member 15"
         },
         {
             "name": "member 16",
             "level": "Gold",
-            "image": "memberSeven.jpeg",
+            "image": "memberSeven.webp",
             "description": "Description for member 16"
         },
         {
             "name": "member 17",
             "level": "Silver",
-            "image": "memberSeven.jpeg",
+            "image": "memberSeven.webp",
             "description": "Description for member 17"
         },
         {
             "name": "member 18",
             "level": "Bronze",
-            "image": "memberEight.jpeg",
+            "image": "memberEight.webp",
             "description": "Description for member 18"
         },
         {
             "name": "member 19",
             "level": "Gold",
-            "image": "memberEleven.jpeg",
+            "image": "memberEleven.webp",
             "description": "Description for member 19"
         },
         {
@@ -123,7 +123,7 @@
         {
             "name": "member 21",
             "level": "Bronze",
-            "image": "memberTwo.jpeg",
+            "image": "memberTwo.webp",
             "description": "Description for member 21"
         },
         {
@@ -135,7 +135,7 @@
         {
             "name": "member 23",
             "level": "Silver",
-            "image": "memberTwo.jpg",
+            "image": "memberTwo.webp",
             "description": "Description for member 23"
         },
         {
