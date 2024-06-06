@@ -1,153 +1,153 @@
 {
     "members": [
         {
-            "name": "member 1",
+            "name": "Member 1",
             "level": "Gold",
-            "image": "memberOne.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 1"
         },
         {
-            "name": "member 2",
+            "name": "Member 2",
             "level": "Silver",
-            "image": "memberTwo.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 2"
         },
         {
-            "name": "member 3",
+            "name": "Member 3",
             "level": "Bronze",
-            "image": "memberThree.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 3"
         },
         {
-            "name": "member 4",
+            "name": "Member 4",
             "level": "Gold",
-            "image": "memberFour.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 4"
         },
         {
-            "name": "member 5",
+            "name": "Member 5",
             "level": "Silver",
-            "image": "memberFive.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 5"
         },
         {
-            "name": "member 6",
+            "name": "Member 6",
             "level": "Bronze",
-            "image": "memberSix.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 6"
         },
         {
-            "name": "member 7",
+            "name": "Member 7",
             "level": "Gold",
-            "image": "memberSix.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 7"
         },
         {
-            "name": "member 8",
+            "name": "Member 8",
             "level": "Silver",
-            "image": "memberSix.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 8"
         },
         {
-            "name": "member 9",
+            "name": "Member 9",
             "level": "Bronze",
-            "image": "memberSix.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 9"
         },
         {
-            "name": "member 10",
+            "name": "Member 10",
             "level": "Gold",
-            "image": "memberTen.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 10"
         },
         {
-            "name": "member 11",
+            "name": "Member 11",
             "level": "Silver",
-            "image": "memberEleven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 11"
         },
         {
-            "name": "member 12",
+            "name": "Member 12",
             "level": "Bronze",
-            "image": "memberTwelve.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 12"
         },
         {
-            "name": "member 13",
+            "name": "Member 13",
             "level": "Gold",
-            "image": "memberSeven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 13"
         },
         {
-            "name": "member 14",
+            "name": "Member 14",
             "level": "Silver",
-            "image": "memberSeven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 14"
         },
         {
-            "name": "member 15",
+            "name": "Member 15",
             "level": "Bronze",
-            "image": "memberSeven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 15"
         },
         {
-            "name": "member 16",
+            "name": "Member 16",
             "level": "Gold",
-            "image": "memberSeven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 16"
         },
         {
-            "name": "member 17",
+            "name": "Member 17",
             "level": "Silver",
-            "image": "memberSeven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 17"
         },
         {
-            "name": "member 18",
+            "name": "Member 18",
             "level": "Bronze",
-            "image": "memberEight.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 18"
         },
         {
-            "name": "member 19",
+            "name": "Member 19",
             "level": "Gold",
-            "image": "memberEleven.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 19"
         },
         {
-            "name": "member 20",
+            "name": "Member 20",
             "level": "Silver",
-            "image": "memberTwo.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 20"
         },
         {
-            "name": "member 21",
+            "name": "Member 21",
             "level": "Bronze",
-            "image": "memberTwo.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 21"
         },
         {
-            "name": "member 22",
+            "name": "Member 22",
             "level": "Gold",
-            "image": "memberTwo.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 22"
         },
         {
-            "name": "member 23",
+            "name": "Member 23",
             "level": "Silver",
-            "image": "memberTwo.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 23"
         },
         {
-            "name": "member 24",
+            "name": "Member 24",
             "level": "Bronze",
-            "image": "memberTwo.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 24"
         },
         {
-            "name": "member 25",
+            "name": "Member 25",
             "level": "Gold",
-            "image": "memberFour.webp",
+            "image": "chamber/images/member-2.jpg",
             "description": "Description for member 25"
         }
     ]
