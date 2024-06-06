@@ -1,4 +1,5 @@
-const membersUrl = 'https://christianuche.github.io/wdd230/chamber/data/home-members.json';
+const baseUrl = "https://christianuche.github.io/wdd230/"
+const linksURL = `${baseURL}chamber/data/links.json`;
 
 async function fetchMembers() {
     try {
