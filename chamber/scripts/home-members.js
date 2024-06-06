@@ -1,4 +1,4 @@
-const membersUrl = 'chamber/data/home-members.json'; // Replace with the actual path to your JSON file
+const membersUrl = 'https://christianuche.github.io/wdd230/chamber/data/home-members.json';
 
 async function fetchMembers() {
     try {
