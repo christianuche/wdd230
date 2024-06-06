@@ -47,9 +47,17 @@
         <aside class="sidebar">
             <!-- Sidebar content goes here -->
             <div class="sidebar-content">
-                <h2>Welcome, {{user_name}}!</h2>
+                <h2>Welcome, <span id="user-name">Guest</span>!</h2>
                 <p>Explore the mysterious building and uncover its secrets...</p>
-            </div>    
+            </div>
+            
+            <!-- User input form -->
+            <div class="user-input">
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" placeholder="Your name">
+                <button onclick="setUserName()">Submit</button>
+            </div> 
+
             <!-- Promotions -->
             <section class="card-1">
                 <h3>Promotions</h3>
@@ -59,7 +67,7 @@
                     <li><a href="#">Buy one, get one free on selected items!</a></li>
                 </ul>
             </section>
-                
+           
             <!-- Advertisements -->
             <section class="card-2">
                 <h3>Advertisements</h3>
@@ -128,6 +136,7 @@
     </div>
     <script src="scripts/getDateTime.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/userName.js"></script>
 </body>
 <footer>
     <!-- Footer content -->

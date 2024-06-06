@@ -1,5 +1,5 @@
-const baseUrl = "https://christianuche.github.io/wdd230/"
-const memberURL = `${baseUrl}chamber/data/home-members.json`;
+const baseURL = "https://christianuche.github.io/wdd230/"
+const memberURL = `${baseURL}chamber/data/home-members.json`;
 
 async function fetchMembers() {
     try {
@@ -15,7 +15,7 @@ async function fetchMembers() {
 }
 
 function displaySpotlights(members) {
-    const spotlightsContainer = document.getElementById('spotlights-container');
+    const spotlightsContainer = document.getElementById('#spotlights-container');
     spotlightsContainer.innerHTML = '';
 
     const qualifiedMembers = members.filter(member => member.level === 'Silver' || member.level === 'Gold');

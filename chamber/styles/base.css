@@ -454,4 +454,31 @@ footer {
     justify-items: center;
 }
 
+/*Style the username place*/
+.user-input {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.user-input label {
+    margin-right: 10px;
+}
+
+.user-input input {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.user-input button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-input button:hover {
+    background-color: #0056b3;
+}
