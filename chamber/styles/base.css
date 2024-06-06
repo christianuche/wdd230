@@ -141,7 +141,9 @@ nav .active {
     flex-direction: column;
     align-items: center;
 }
+/*end of styling the weather card*/
 
+/*styling the event space*/
 .events {
     grid-column: 1;
     grid-row: 1/2;
